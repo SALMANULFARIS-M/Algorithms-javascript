@@ -24,7 +24,7 @@ function factorial(n) {
 }
 
 //BIG O = O(n)
-console.log(factorial(5));
+console.log(factorial(6));
 
 function index(n, array, lIndex, rIndex) {
   if (lIndex <= rIndex) {
