@@ -8,4 +8,4 @@ function index(n) {
   return -1;
 }
 //Big O = O(n)
-console.log(index(70));
+console.log(index(50));
