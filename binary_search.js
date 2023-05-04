@@ -16,4 +16,4 @@ function index(n) {
   return -1;
 }
 //Big O = O(logn)
-console.log(index(40));
+console.log(index(50));
