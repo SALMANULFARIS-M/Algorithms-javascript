@@ -8,23 +8,23 @@ function fibonacci(n) {
 
 //BIG O = O(n)
 
-//find the factorial
-// function factorial(n, total = 1) {
-//   if (n < 1) {
-//     return total;
-//   }
-//   total = total * n;
-//   return factorial(n - 1, total);
-// }
-// function factorial(n) {
-//   if (n < 1) {
-//     return 1;
-//   }
-//   return n * factorial(n - 1);
-// }
+// find the factorial
+function factorial(n, total = 1) {
+  if (n < 1) {
+    return total;
+  }
+  total = total * n;
+  return factorial(n - 1, total);
+}
+function factorial(n) {
+  if (n < 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
 
 //BIG O = O(n)
-//console.log(factorial(5));
+console.log(factorial(5));
 
 function index(n, array, lIndex, rIndex) {
   if (lIndex <= rIndex) {
